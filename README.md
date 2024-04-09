@@ -17,6 +17,6 @@ Include 10 public datasets:
 * HELA
 * HL60
 # File description
-* model.py:The CrnnCrispr model with CNN and RNN.
-* model_train.py:Running this file to train the CrnnCrispr model.(5-fold cross-validation)
-* model_test.py:Running this file to evaluate the CrnnCrispr model.(Demonstrate model performance by evaluating metrics through two regression question evaluation indicators)
+* model.py: The CrnnCrispr model with CNN and RNN.
+* model_train.py: Running this file to train the CrnnCrispr model.(5-fold cross-validation)
+* model_test.py: Running this file to evaluate the CrnnCrispr model.(Demonstrate model performance by evaluating metrics through two regression question evaluation indicators)
