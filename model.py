@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow.keras.layers import Input, Embedding, Bidirectional, Dense, Flatten, RepeatVector, Dropout, Concatenate, LSTM, GRU, Conv1D
 from tensorflow.keras.models import Model
 
-def CrnnCrispr(x1_train, x2_train, y_train):
+def CrnnCrispr(x1_train, x2_train, y_train, n, model_type=model_type, batch_size=batch_size, epochs=epochs):
     x1_input = Input(shape=(23, 4,))
     conv1 = Conv1D(256, 3, padding='same', activation='relu')(x1_input)
     conv2 = Conv1D(256, 3, padding='same', activation='relu')(conv1)
