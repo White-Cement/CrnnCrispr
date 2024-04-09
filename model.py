@@ -28,7 +28,7 @@ def CrnnCrispr(x1_train, x2_train, y_train):
     denv3 = Dense(64, activation='relu')(denv2)
     dropv1 = Dropout(0.3)(denv3)
     output = Dense(1, activation='linear', name="output")(dropv1)
-    model = Model(inputs=[onehot_input, seq_input], outputs=[output])
+    model = Model(inputs=[x1_input, x2_input], outputs=[output])
     model.summary()
 
     adamax = tf.keras.optimizers.Adamax(learning_rate=0.0001)
