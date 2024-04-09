@@ -1,5 +1,6 @@
 import tensorflow as tf
 from tensorflow.keras.layers import Input, Embedding, Bidirectional, Dense, Flatten, RepeatVector, Dropout, Concatenate, LSTM, GRU, Conv1D
+from tensorflow.keras.models import Model
 
 def CrnnCrispr(x1_train, x2_train, y_train):
     x1_input = Input(shape=(23, 4,))
