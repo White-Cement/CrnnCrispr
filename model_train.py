@@ -2,6 +2,7 @@ import pickle
 import numpy as np
 from sklearn.model_selection import ShuffleSplit
 from model import CrnnCrispr
+
 def onehot(x):
     z = list()
     for y in list(x):
