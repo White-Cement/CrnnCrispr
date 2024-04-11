@@ -1,6 +1,6 @@
 # CrnnCrispr
 An interpretable deep learning method for CRISPR/Cas9 sgRNA on-target activity prediction
-Below is the layout of the whole model
+Below is the layout of the whole model  
 ![image](https://github.com/White-Cement/CrnnCrispr/assets/104978990/787d4e04-8ae5-4ec7-b527-e78c36a646db)
 # Environment
 * Keras 2.4.3
